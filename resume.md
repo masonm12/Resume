@@ -10,7 +10,16 @@ Mathew Mason
 Experience
 ----------
 
-November 2013-Present
+February 2015-Present
+:   **Zynga, Senior Software Engineer**
+
+    New IP Group\
+    *Unity 3D, C#, Python, Git*
+
+    * Gameplay programmer on various new IP prototypes
+    * Developed creature AI, client/server architectures, and build scripts
+
+November 2013-February 2015
 :   **Backflip Studios, Engineer**
 
     DragonVale \
@@ -29,8 +38,7 @@ October 2009-October 2013
     Dead Man's Draw, Cancelled Mobile Project \
     *iOS, C++, Objective-C, Python, Cocos2d-x, Subversion, Git*
 
-    * Established mobile team
-    * Worked as lead gameplay programmer on new projects using open source engine
+    * Worked as gameplay programmer on new team using open source engine
     * Developed UI on top of engine UI for buttons, scrolling views, and message boxes
     * Implemented in app purchase API and in game storefront for consumable game items
     * Developed asset pipeline
@@ -39,7 +47,6 @@ October 2009-October 2013
     *Win32, C++, C#, Python, NAnt, MS SQL, Perforce, Mercurial*
 
     * Developed expansion packs from start to release for existing property using proprietary game engine for external partner (Ironclad Games)
-    * Co-developed shadow mapping for updated renderer
     * Established automated build process, maintained client and server releases
     * Enhanced administrative tools for MS SQL backend
     * Integrated Steam account system into existing multiplayer account infrastructure
@@ -49,7 +56,6 @@ October 2009-October 2013
 
     * Worked on various release stages of products using in-house engine
     * Integrated Facebook authorization and screenshot sharing into engine using in game UI, steamworks, ASP.net, and libCurl
-    * Co-developed tactical battle system
 
     In addition, I pushed for reform on standards, version control, and hiring practices
 
@@ -65,4 +71,4 @@ May, 2009
 ----
 
 > <masonm12@gmail.com> • 586.215.9824\
-> 6200 Habitat Dr #1030 - Boulder, Colorado, 80301
+> 85 W 5th Ave #401 - San Mateo, California, 94402
