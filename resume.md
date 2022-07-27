@@ -3,20 +3,42 @@ Mathew Mason
 
 ----
 
-> Specialties: C++, Python, Game Development and Gameplay Programming
+> Specialties: Swift, Python, and 3D Application Programming
 
 ----
 
 Experience
 ----------
 
-February 2015 - Present
+March 2017 - Present
+:   **Apple, Senior Software Engineer**
+
+    Technology Development Group\
+    *Swift, Objective-C, iOS, macOS*
+
+    RealityComposer, macOS Big Sur+
+
+    * Developed plugins for editing USD files
+    * Integrated internal frameworks with plugin system
+
+    ARKit and RealityKit, iOS 13+ \
+
+    * Developed API for AR coaching for tracking initialization, adapted from bespoke Measure implementation
+    * Developed API for translation + rotation + scale gestures for ARView
+    * Developed API for ARKit body tracking with RealityKit
+
+    Measure, iOS 12+ \
+
+    * Integrated OpenCV and CMAKE into build process
+    * Iterated corner and line detection algorithms for measure reticle
+
+February 2015 - March 2017
 :   **Zynga, Senior Software Engineer**
 
     New IP Group\
     *Unity 3D, C#, Python, Git*
 
-    * Gameplay programmer on various new IP prototypes
+    * Gameplay programmer on new IP prototypes
     * Developed creature AI, client/server architectures, and build scripts
 
 November 2013 - February 2015
@@ -26,9 +48,9 @@ November 2013 - February 2015
     *iOS, Android, C++, Objective-C, Java, Python, Ruby, Bash, Node, App Engine, Mercurial*
 
     * Gameplay and tools programmer on established project using in-house engine
-    * Developed fire phone launch version of game, featuring head tracking
+    * Developed Amazon Fire Phone launch version of game, featuring head tracking
     * Converted build system to be incremental
-    * Wrote designer and engineer facing tools for data editing, and event scheduling
+    * Wrote designer and engineer facing tools for data editing and event scheduling
     * Worked closely with designers on frequent feature and content releases
     * Improved development iteration time, helped to optimize user login and server requests
 
