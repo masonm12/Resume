@@ -10,7 +10,7 @@ Mathew Mason
 Experience
 ----------
 
-February 2015-Present
+February 2015 - Present
 :   **Zynga, Senior Software Engineer**
 
     New IP Group\
@@ -19,7 +19,7 @@ February 2015-Present
     * Gameplay programmer on various new IP prototypes
     * Developed creature AI, client/server architectures, and build scripts
 
-November 2013-February 2015
+November 2013 - February 2015
 :   **Backflip Studios, Engineer**
 
     DragonVale \
@@ -32,7 +32,7 @@ November 2013-February 2015
     * Worked closely with designers on frequent feature and content releases
     * Improved development iteration time, helped to optimize user login and server requests
 
-October 2009-October 2013
+October 2009 - October 2013
 :   **Stardock Entertainment, Game Developer**
 
     Dead Man's Draw, Cancelled Mobile Project \
@@ -70,5 +70,5 @@ May, 2009
 
 ----
 
-> <masonm12@gmail.com> • 586.215.9824\
-> 85 W 5th Ave #401 - San Mateo, California, 94402
+> <masonm12@gmail.com>\
+> Sunnyvale, California, 94086
