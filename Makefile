@@ -9,3 +9,6 @@ pdf: resume.pdf
 
 clean:
 	rm -f *.pdf *.html
+
+update_pandoc_resume:
+	git subtree pull --prefix pandoc_resume git@github.com:mszep/pandoc_resume.git master --squash
