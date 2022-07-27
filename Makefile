@@ -1,10 +1,10 @@
-resume.html: resume.md resume.css
-	pandoc --standalone -H resume.css --from markdown --to html -o resume.html resume.md
-
 resume.pdf: resume.html
 	wkhtmltopdf resume.html resume.pdf
 
-html: resume.html
+html:
+	$(MAKE) -C pandoc_resume html
+	cp pandoc_resume/output/resume.html .
+
 pdf: resume.pdf
 
 clean:
