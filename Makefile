@@ -4,20 +4,29 @@ copy_input:
 clean_input:
 	rm -f pandoc_resume/markdown/mathew.*
 
-html: copy_input
+mtx_generate.tmp:
+	mtxrun --generate
+	touch mtx_generate.tmp
+generate: mtx_generate.tmp
+
+resume.html: resume.md
+	$(MAKE) copy_input
 	$(MAKE) -C pandoc_resume html
 	cp pandoc_resume/output/mathew.html resume.html
 	$(MAKE) clean_input
+html: resume.html
 
-pdf: copy_input
+resume.pdf: resume.md generate
+	$(MAKE) copy_input
 	$(MAKE) -C pandoc_resume pdf
 	cp pandoc_resume/output/mathew.pdf resume.pdf
 	$(MAKE) clean_input
+pdf: resume.pdf
 
 all: html pdf
 
 clean: clean_input
-	rm -f *.pdf *.html
+	rm -f *.pdf *.html *.tmp
 	$(MAKE) -C pandoc_resume clean
 
 update_pandoc_resume:
