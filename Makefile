@@ -1,3 +1,5 @@
+all: html pdf
+
 copy_input:
 	cp resume.md pandoc_resume/markdown/mathew.md
 
@@ -22,8 +24,6 @@ resume.pdf: resume.md generate
 	cp pandoc_resume/output/mathew.pdf resume.pdf
 	$(MAKE) clean_input
 pdf: resume.pdf
-
-all: html pdf
 
 clean: clean_input
 	rm -f *.pdf *.html *.tmp
